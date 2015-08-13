@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		413E2E981B65867E00FB5C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 413E2E971B65867E00FB5C7C /* main.m */; };
+		413E2E9A1B65867E00FB5C7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413E2E991B65867E00FB5C7C /* Images.xcassets */; };
+		413E2EA91B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413E2EA81B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.m */; };
+		413E2EB61B6586DB00FB5C7C /* LXCBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413E2EB31B6586DB00FB5C7C /* LXCBAppDelegate.m */; };
+		413E2EB71B6586DB00FB5C7C /* LXCBCentralClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 413E2EB51B6586DB00FB5C7C /* LXCBCentralClient.m */; };
+		413E2EB91B6586F200FB5C7C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413E2EB81B6586F200FB5C7C /* MainMenu.xib */; };
+		413E2EBC1B65881D00FB5C7C /* Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 413E2EBB1B65881D00FB5C7C /* Communicator.m */; };
+		419373F21B693AC3009E9F4D /* NSData+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 419373F11B693AC3009E9F4D /* NSData+Conversion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		413E2EA31B65867E00FB5C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413E2E871B65867E00FB5C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413E2E8E1B65867E00FB5C7C;
+			remoteInfo = AD8302_BLECentral_TCPClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		413E2E8F1B65867E00FB5C7C /* AD8302_BLECentral_TCPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AD8302_BLECentral_TCPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413E2E931B65867E00FB5C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413E2E971B65867E00FB5C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		413E2E991B65867E00FB5C7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		413E2EA21B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AD8302_BLECentral_TCPClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		413E2EA71B65867E00FB5C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		413E2EA81B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AD8302_BLECentral_TCPClientTests.m; sourceTree = "<group>"; };
+		413E2EB21B6586DB00FB5C7C /* LXCBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCBAppDelegate.h; sourceTree = "<group>"; };
+		413E2EB31B6586DB00FB5C7C /* LXCBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCBAppDelegate.m; sourceTree = "<group>"; };
+		413E2EB41B6586DB00FB5C7C /* LXCBCentralClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCBCentralClient.h; sourceTree = "<group>"; };
+		413E2EB51B6586DB00FB5C7C /* LXCBCentralClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCBCentralClient.m; sourceTree = "<group>"; };
+		413E2EB81B6586F200FB5C7C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		413E2EBA1B65881D00FB5C7C /* Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communicator.h; sourceTree = "<group>"; };
+		413E2EBB1B65881D00FB5C7C /* Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communicator.m; sourceTree = "<group>"; };
+		419373F01B693AA8009E9F4D /* NSData+Conversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Conversion.h"; sourceTree = "<group>"; };
+		419373F11B693AC3009E9F4D /* NSData+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Conversion.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		413E2E8C1B65867E00FB5C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413E2E9F1B65867E00FB5C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		413E2E861B65867E00FB5C7C = {
+			isa = PBXGroup;
+			children = (
+				413E2E911B65867E00FB5C7C /* AD8302_BLECentral_TCPClient */,
+				413E2EA51B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests */,
+				413E2E901B65867E00FB5C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		413E2E901B65867E00FB5C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				413E2E8F1B65867E00FB5C7C /* AD8302_BLECentral_TCPClient.app */,
+				413E2EA21B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		413E2E911B65867E00FB5C7C /* AD8302_BLECentral_TCPClient */ = {
+			isa = PBXGroup;
+			children = (
+				413E2EBA1B65881D00FB5C7C /* Communicator.h */,
+				413E2EBB1B65881D00FB5C7C /* Communicator.m */,
+				413E2EB21B6586DB00FB5C7C /* LXCBAppDelegate.h */,
+				413E2EB31B6586DB00FB5C7C /* LXCBAppDelegate.m */,
+				419373F01B693AA8009E9F4D /* NSData+Conversion.h */,
+				419373F11B693AC3009E9F4D /* NSData+Conversion.m */,
+				413E2EB41B6586DB00FB5C7C /* LXCBCentralClient.h */,
+				413E2EB51B6586DB00FB5C7C /* LXCBCentralClient.m */,
+				413E2EB81B6586F200FB5C7C /* MainMenu.xib */,
+				413E2E991B65867E00FB5C7C /* Images.xcassets */,
+				413E2E921B65867E00FB5C7C /* Supporting Files */,
+			);
+			path = AD8302_BLECentral_TCPClient;
+			sourceTree = "<group>";
+		};
+		413E2E921B65867E00FB5C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413E2E931B65867E00FB5C7C /* Info.plist */,
+				413E2E971B65867E00FB5C7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		413E2EA51B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				413E2EA81B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.m */,
+				413E2EA61B65867E00FB5C7C /* Supporting Files */,
+			);
+			path = AD8302_BLECentral_TCPClientTests;
+			sourceTree = "<group>";
+		};
+		413E2EA61B65867E00FB5C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				413E2EA71B65867E00FB5C7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		413E2E8E1B65867E00FB5C7C /* AD8302_BLECentral_TCPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413E2EAC1B65867E00FB5C7C /* Build configuration list for PBXNativeTarget "AD8302_BLECentral_TCPClient" */;
+			buildPhases = (
+				413E2E8B1B65867E00FB5C7C /* Sources */,
+				413E2E8C1B65867E00FB5C7C /* Frameworks */,
+				413E2E8D1B65867E00FB5C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AD8302_BLECentral_TCPClient;
+			productName = AD8302_BLECentral_TCPClient;
+			productReference = 413E2E8F1B65867E00FB5C7C /* AD8302_BLECentral_TCPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		413E2EA11B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413E2EAF1B65867E00FB5C7C /* Build configuration list for PBXNativeTarget "AD8302_BLECentral_TCPClientTests" */;
+			buildPhases = (
+				413E2E9E1B65867E00FB5C7C /* Sources */,
+				413E2E9F1B65867E00FB5C7C /* Frameworks */,
+				413E2EA01B65867E00FB5C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				413E2EA41B65867E00FB5C7C /* PBXTargetDependency */,
+			);
+			name = AD8302_BLECentral_TCPClientTests;
+			productName = AD8302_BLECentral_TCPClientTests;
+			productReference = 413E2EA21B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		413E2E871B65867E00FB5C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = YangZhang;
+				TargetAttributes = {
+					413E2E8E1B65867E00FB5C7C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					413E2EA11B65867E00FB5C7C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 413E2E8E1B65867E00FB5C7C;
+					};
+				};
+			};
+			buildConfigurationList = 413E2E8A1B65867E00FB5C7C /* Build configuration list for PBXProject "AD8302_BLECentral_TCPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 413E2E861B65867E00FB5C7C;
+			productRefGroup = 413E2E901B65867E00FB5C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413E2E8E1B65867E00FB5C7C /* AD8302_BLECentral_TCPClient */,
+				413E2EA11B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		413E2E8D1B65867E00FB5C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413E2E9A1B65867E00FB5C7C /* Images.xcassets in Resources */,
+				413E2EB91B6586F200FB5C7C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413E2EA01B65867E00FB5C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		413E2E8B1B65867E00FB5C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419373F21B693AC3009E9F4D /* NSData+Conversion.m in Sources */,
+				413E2E981B65867E00FB5C7C /* main.m in Sources */,
+				413E2EB61B6586DB00FB5C7C /* LXCBAppDelegate.m in Sources */,
+				413E2EBC1B65881D00FB5C7C /* Communicator.m in Sources */,
+				413E2EB71B6586DB00FB5C7C /* LXCBCentralClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413E2E9E1B65867E00FB5C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413E2EA91B65867E00FB5C7C /* AD8302_BLECentral_TCPClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		413E2EA41B65867E00FB5C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413E2E8E1B65867E00FB5C7C /* AD8302_BLECentral_TCPClient */;
+			targetProxy = 413E2EA31B65867E00FB5C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		413E2EAA1B65867E00FB5C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		413E2EAB1B65867E00FB5C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		413E2EAD1B65867E00FB5C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AD8302_BLECentral_TCPClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		413E2EAE1B65867E00FB5C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AD8302_BLECentral_TCPClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		413E2EB01B65867E00FB5C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AD8302_BLECentral_TCPClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AD8302_BLECentral_TCPClient.app/Contents/MacOS/AD8302_BLECentral_TCPClient";
+			};
+			name = Debug;
+		};
+		413E2EB11B65867E00FB5C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AD8302_BLECentral_TCPClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AD8302_BLECentral_TCPClient.app/Contents/MacOS/AD8302_BLECentral_TCPClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		413E2E8A1B65867E00FB5C7C /* Build configuration list for PBXProject "AD8302_BLECentral_TCPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413E2EAA1B65867E00FB5C7C /* Debug */,
+				413E2EAB1B65867E00FB5C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413E2EAC1B65867E00FB5C7C /* Build configuration list for PBXNativeTarget "AD8302_BLECentral_TCPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413E2EAD1B65867E00FB5C7C /* Debug */,
+				413E2EAE1B65867E00FB5C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413E2EAF1B65867E00FB5C7C /* Build configuration list for PBXNativeTarget "AD8302_BLECentral_TCPClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413E2EB01B65867E00FB5C7C /* Debug */,
+				413E2EB11B65867E00FB5C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 413E2E871B65867E00FB5C7C /* Project object */;
+}

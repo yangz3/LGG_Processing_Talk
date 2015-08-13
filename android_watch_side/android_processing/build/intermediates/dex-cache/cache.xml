@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\myPCcodes\java\BluetoothTest-master\android_processing\app\libs\processing-core.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4453559376f395bba2da0e60ccbfb8e03323cd50">
+        <dex dex="D:\myPCcodes\java\BluetoothTest-master\android_processing\app\build\intermediates\pre-dexed\debug\processing-core-fe9c0d592a389db15f54bc8c2009f8a52397b65c.jar" />
+    </item>
+
+</items>
